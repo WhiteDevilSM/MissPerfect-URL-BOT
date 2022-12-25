@@ -14,8 +14,8 @@ COPY requirements.txt /requirements.txt
 # Installing Requirements
 RUN cd /
 RUN pip3 install -U -r requirements.txt
-RUN mkdir /MissPerfectURLBOT
-WORKDIR /MissPerfectURLBOT
+RUN mkdir /MissPerfect-URL-BOT
+WORKDIR /MissPerfect-URL-BOT
 
 # Running MessageSearchBot
 CMD ["python", "bot.py"]
